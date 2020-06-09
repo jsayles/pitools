@@ -1,3 +1,5 @@
+## Install Wireguard
+
 From:
 https://raspberrypi.stackexchange.com/questions/106176/how-to-bridge-an-access-point-with-a-remote-network-by-wireguard-with-the-use
 
@@ -14,3 +16,6 @@ rpi ~# apt update
 rpi ~# apt install wireguard
 ```
 
+## Create an Ethernet Bridge
+
+https://willhaley.com/blog/raspberry-pi-wifi-ethernet-bridge/
