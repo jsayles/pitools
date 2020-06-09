@@ -20,6 +20,7 @@ sudo apt install tmux git
 ```
 sudo adduser jacob
 sudo usermod -a -G sudo jacob
+sudo usermod -a -G gpio jacob
 sudo su - jacob
 mkdir ~/.ssh
 echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA+U7whbpnAY20/pOfykP3FBYfNDXgYG+rg1wBfFPlMP ssh@jsayles.mailbolt.com" > ~/.ssh/authorized_keys
@@ -38,4 +39,10 @@ sudo ./install.sh
 ### Set Timezone
 ```
 sudo timedatectl set-timezone America/Vancouver
+```
+
+### Enable Remote Desktop
+```
+sudo apt-get -y install xrdp
+sudo systemctl enable xrdp
 ```
