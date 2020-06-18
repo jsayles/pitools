@@ -23,7 +23,7 @@ sudo usermod -a -G sudo jacob
 sudo usermod -a -G gpio jacob
 sudo su - jacob
 mkdir ~/.ssh
-echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA+U7whbpnAY20/pOfykP3FBYfNDXgYG+rg1wBfFPlMP ssh@jsayles.mailbolt.com" > ~/.ssh/authorized_keys
+curl "https://github.com/jsayles.keys" -s -o ~/.ssh/authorized_keys
 ```
 
 ### Run the pitools install script
