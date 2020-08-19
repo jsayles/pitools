@@ -46,3 +46,7 @@ sudo timedatectl set-timezone America/Vancouver
 sudo apt-get -y install xrdp
 sudo systemctl enable xrdp
 ```
+
+### Open VPN Setup
+
+See:  https://github.com/Nyr/openvpn-install
