@@ -41,6 +41,12 @@ sudo ./install.sh
 sudo timedatectl set-timezone America/Vancouver
 ```
 
+### Disable Wifi Power Save
+```
+sudo iw dev wlan0 get power_save
+sudo iw dev wlan0 set power_save off
+```
+
 ### Enable Remote Desktop
 ```
 sudo apt-get -y install xrdp
