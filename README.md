@@ -53,6 +53,6 @@ sudo apt-get -y install xrdp
 sudo systemctl enable xrdp
 ```
 
-### Open VPN Setup
-
-See:  https://github.com/Nyr/openvpn-install
+### VPN Setup
+- Wireguard:  https://github.com/Nyr/wireguard-install
+- Open VPN:  https://github.com/Nyr/openvpn-install
